@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height:100vh;
+    width:100%;
+}
+
+.btn-green{
+    @apply px-6 py-2 text-xs font-medium leading-6 text-center text-white uppercase transition bg-green-500 rounded shadow;
+}
+.btn-green:focus{
+    @apply outline-none;
+}
+
+.btn-green:hover{
+    @apply shadow-lg bg-green-600;
+}
+
+.btn-red{
+    @apply px-6 py-2 text-xs font-medium leading-6 text-center text-white uppercase transition bg-red-500 rounded shadow;
+}
+.btn-red:focus{
+    @apply outline-none;
+}
+
+.btn-red:hover{
+    @apply shadow-lg bg-red-600;
+}
+
