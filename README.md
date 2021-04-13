@@ -1,24 +1,4 @@
-# 110vueapp
+Bonjour,
 
-## Project setup
-```
-npm install
-```
+Petites applications qui me permettent de perfectionner mon apprentissage de VUE.JS, notamment la nouvelle composition API de VUE.JS 3.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
